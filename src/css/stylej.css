@@ -1,0 +1,140 @@
+:root {
+  font-size: 60%;
+
+  --color-background: #fff;
+  --color-text: #0C0C0C;
+  --color-kink: #0158b4;
+  --color-background-orange: #f47721;
+  --color-background-orange-hover: #f4a064;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button, textarea {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.7rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  padding: 2.5rem 5.5rem 1rem 5.5rem;
+
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.25);
+}
+
+header div.logo {
+  width: 18rem;
+  height: 3.7rem;
+}
+
+header div.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav {
+  padding: 0 1.5rem;
+}
+
+header nav a {
+  padding: 1.3rem 1.5rem;
+  color: var(--color-kink);
+  font-weight: 600;
+  font-size: 1.8rem;
+
+  transition: border-bottom 0.4s;
+}
+
+header nav a:hover {
+  border-bottom: 0.5rem solid var(--color-background-orange);
+}
+
+header div.buttons div.language button.flag {
+  width: 3.68rem;
+  height: 3.68rem;
+
+  background: none;
+  border: none;
+}
+
+header div.buttons div.language button.flag img {
+  border-radius: 50%;
+
+  width: 100%;
+  height: 100%;
+}
+
+header div.buttons div.socialMedia button.media {
+  width: 3.68rem;
+  height: 3.68rem;
+  border-radius: 50%;
+  transition: background-color 0.1s;
+
+  background: var(--color-background-orange);
+  border: none;
+}
+
+header div.buttons div.socialMedia button.media:hover {
+  background: var(--color-background-orange-hover);
+}
+
+header div.buttons div.socialMedia button.media i {
+  color: var(--color-background);
+  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.banner {
+  background: no-repeat center url(../img/trabalhoEmEquipe.jpg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50rem;
+}
+
+section.banner div.titleBox {
+  width: 100%;
+  padding: 1rem 0;
+  background: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner div.titleBox h1 {
+  font-size: 4.8rem;
+  color: var(--color-background-orange)
+}
+
+section.banner div.titleBox h1 span {
+  color: var(--color-kink)
+}

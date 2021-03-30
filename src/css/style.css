@@ -109,3 +109,32 @@ header div.buttons div.socialMedia button.media i {
   align-items: center;
   justify-content: center;
 }
+
+section.banner {
+  background: no-repeat center url(../img/trabalhoEmEquipe.jpg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50rem;
+}
+
+section.banner div.titleBox {
+  width: 100%;
+  padding: 1rem 0;
+  background: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner div.titleBox h1 {
+  font-size: 4.8rem;
+  color: var(--color-background-orange)
+}
+
+section.banner div.titleBox h1 span {
+  color: var(--color-kink)
+}
