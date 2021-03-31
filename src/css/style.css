@@ -112,6 +112,7 @@ header div.buttons div.socialMedia button.media i {
 
 section.banner {
   background: no-repeat center url(../img/trabalhoEmEquipe.jpg);
+  background-size: cover;
 
   display: flex;
   align-items: center;
