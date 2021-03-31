@@ -39,7 +39,7 @@ header {
   width: 100%;
   padding: 2.5rem 7rem 1rem 7rem;
 
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.25);
@@ -55,17 +55,13 @@ header div.logo img {
   height: 100%;
 }
 
-header nav {
-  padding: 0 1.5rem;
-}
-
 header nav a {
   padding: 1.3rem 1.5rem;
   color: var(--color-kink);
   font-weight: 600;
   font-size: 1.8rem;
 
-  transition: border-bottom 0.4s;
+  transition: border-bottom 0.3s;
 }
 
 header nav a:hover {
