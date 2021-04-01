@@ -113,7 +113,7 @@ header div.buttons div.socialMedia div.media {
   height: 3.4rem;
   border-radius: 50%;
   transition: 0.2s;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -121,8 +121,8 @@ header div.buttons div.socialMedia div.media {
   border: none;
 }
 
-header div.buttons div.socialMedia div.media a{
-  display:flex;
+header div.buttons div.socialMedia div.media a {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -614,7 +614,6 @@ section.contactUs
   form
   div.formHeader {
   width: 100%;
-
   margin-bottom: 2rem;
 
   display: flex;
@@ -638,7 +637,6 @@ section.contactUs
   div.formHeader
   input {
   background: var(--color-input-background);
-  color: var(--color-input-letters);
 
   border: none;
   border-radius: 0.4rem;
@@ -650,11 +648,12 @@ section.contactUs
   width: 100%;
   height: 5rem;
   padding: 0.6rem 1.2rem;
+  color: var(--color-text);
 }
 
 section.contactUs div.background div.content div.formAndData form textarea {
   background: var(--color-input-background);
-  color: var(--color-input-letters);
+  color: var(--color-text);
 
   border: none;
   border-radius: 0.4rem;
